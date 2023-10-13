@@ -1,0 +1,334 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    height: 100vh;
+}
+h1, h2{
+    font-size: var(200px);
+    font-weight: bolder;
+    font-family: 'Source Sans Pro', sans-serif;
+    margin: 15px 0px;
+}
+.nav{
+    position: fixed;
+    background-color: white;
+    width: 100%;
+}
+.topnav .right{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+}
+.topnav a{
+    text-decoration: none;
+    font-size: larger;
+    font-family:Arial, Helvetica, sans-serif;
+    padding: 3px;
+    color: black;
+}
+.topnav a:hover{
+    color: white;
+    background-color: green;
+}
+.downnav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(40, 42, 53);
+    padding: 6px;
+}
+.downnav a{
+    text-decoration: none;
+    color: white;
+}
+button{
+    color: white;
+    background-color: rgb(153, 233, 153);
+    padding: 6px;
+    border-radius: 30px;
+    border-color: #69eb69;
+    display: block;
+    justify-content: end;
+    align-items: end;
+    border-color: none;
+    font-size: larger;
+}
+.main1{
+    background-color: rgb(40,42,53);
+    padding: 150px;
+    text-align: center;
+    font-size: xx-large;
+    row-gap: 0px;
+    
+}
+.main1 a{
+    color: white;
+}
+.main1 input{
+    padding: 10px;
+    border-radius: 30px;
+    font-size: x-large;
+    margin: 10px;
+}
+.main2{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 150px;
+    text-align: center;
+    font-size: xx-large;
+    background-color: rgb(217,238,225);
+}
+.main2 input{
+    padding: 10px 60px;
+    border-radius: 30px;
+    font-size: large;
+    margin: 10px;
+}
+.main3{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 150px;
+    text-align: center;
+    font-size: xx-large;
+    background-color: rgb(255,244,163);
+}
+.main3 input{
+    padding: 10px 60px;
+    border-radius: 30px;
+    font-size: large;
+    margin: 10px;
+}
+.main4{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 150px;
+    text-align: center;
+    font-size: xx-large;
+    background-color: rgb(40,42,53);
+}
+.main4 input{
+    padding: 10px 60px;
+    border-radius: 30px;
+    font-size: large;
+    margin: 10px;
+}
+
+.main5{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 150px;
+    text-align: center;
+    font-size: xx-large;
+    background-color: rgb(243,236,234);
+}
+.main5 input{
+    padding: 10px 60px;
+    border-radius: 30px;
+    font-size: large;
+    margin: 10px;
+}
+.main6{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 150px;
+    text-align: center;
+    font-size: xx-large;
+    background-color: rgb(150,212,212);
+}
+.main6 input{
+    padding: 10px 60px;
+    border-radius: 30px;
+    font-size: large;
+    margin: 10px;
+}
+
+
+.pre{
+    background-color: rgb(40,42,53);
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-evenly;
+}
+.small{
+    height: 160px;
+    width: 550px;
+    border-radius: 5px;
+    margin: 30px;
+    text-align: center;
+}
+.small input{
+     padding: 10px 60px;
+    border-radius: 30px;
+    font-size: large;
+    font-weight: bold;
+    margin: 10px;
+    color: white;
+    background-color: rgb(40,42,53);
+}
+
+
+
+
+.section{
+    background-color: rgb(40,42,53);
+    display: flex;
+    justify-content: space-evenly;
+    flex-flow: wrap;
+}
+.box{
+    background-color: azure;
+    width: 230px;
+    height: 100px;
+    margin: 20px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+
+
+.sub{
+    background-color: rgb(40,42,53);
+    display: flex;
+    justify-content: space-evenly;
+    flex-flow: wrap;
+}
+.four{
+    height: 100px;
+    width: 550px;
+    border-radius: 5px;
+    margin: 30px;
+    text-align: center;
+}
+
+.editor-space{
+    background-color: rgb(40,42,53);
+    text-align: center;
+    color: white;
+    font-size: x-large;
+    padding: 50px 0px;
+}
+.editor-space input{
+    padding: 15px;
+    font-size: large;
+    border-radius: 10px;
+}
+.learning{
+    background-color: rgb(217,238,225);
+    text-align: center;
+    font-size: large;
+    padding: 50px 0px;
+}
+.learning input{
+    background-color: rgb(4,170,109);
+    padding: 10px 90px;
+    border-radius: 50px;
+    margin: 30px auto;
+    color: white;
+    font-size: large;
+}
+.cla{
+    background-color: black;
+    align-items: left;
+    font-size: large;
+    color: pink;
+    margin: 200px;
+    height: 200px;
+
+}
+.liam{
+    background-color: white;
+    height: 180px;
+    width: 600px;
+    border-radius: 20px;
+    padding: 10px 20px;
+    margin: 50px auto;
+}
+.liam input{
+    padding: 7px 15px;
+    border-radius: 50px;
+    margin: 20px auto;
+}
+.pro{
+    background-color: rgb(40,42,53);
+    color: white;
+    font-size: x-large;
+    padding: 50px 0px;
+    text-align: center;
+}
+.pro input{
+    background-color: rgb(4,170,109);
+    padding: 20px 90px;
+    border-radius: 50px;
+    margin: 30px auto;
+    color: white;
+    font-size: large;
+}
+.picker{
+    background-color: rgb(243,236,234);
+    font-size: x-large;
+    padding: 100px 0px;
+    text-align: center;
+}
+.game{
+    background-color: rgb(150,212,212);
+    font-size: x-large;
+    padding: 50px 0px;
+    text-align: center;
+}
+.game input{
+    background-color: rgb(40,42,53);
+    padding: 10px 40px;
+    border-radius: 50px;
+    margin: 30px auto;
+    color: white;
+    font-size: large;
+}
+.quiz{
+    background-color: rgb(40,42,53);
+    text-align: center;
+    color: white;
+    padding: 50px 0px;
+}
+.qu{
+    display: flex;
+    justify-content: space-evenly;
+}
+.exe{
+    color: white;
+    width: 500px;
+    height: 200px;
+    margin: 50px auto;
+    text-align: center;
+    border-radius: 5px;
+    padding-top: 80px;
+    font-size: xx-large;
+    font-weight: bold;
+
+}
+.re{
+    margin: 30px;
+    margin-bottom: 45px auto;
+    padding: 32px;
+    background-color: #69eb69;
+}
+.ma{
+    padding: 50px;
+}
+.cla{
+    background-color: black;
+    background-size: 670px;
+}
+.mahmudah{
+ align-items: center;
+ text-align: center;
+    
+}
